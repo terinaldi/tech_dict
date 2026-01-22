@@ -1,4 +1,4 @@
-const CACHE_NAME = 'portal-v1';
+const CACHE_NAME = 'tech_dict';
 const urlsToCache = [
   '/',
   '/index.html',
