@@ -1,6 +1,6 @@
 {
-  "name": "Portal",
-  "short_name": "Portal",
+  "name": "Technical Dictionary",
+  "short_name": "Tech Dict",
   "description": "Technical Dictionary of Dianetics and Scientology by L. Ron Hubbard",
   "start_url": ".",
   "display": "standalone",
