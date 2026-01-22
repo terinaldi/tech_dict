@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal</title>
+
+  <!-- Redirect to PDF after 3 seconds (gives time for icon caching) -->
+  <meta http-equiv="refresh" content="3; url=dictionary.pdf">
+
+  <!-- iOS icon setup (exact from your working app) -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Portal">
+
+  <link rel="apple-touch-icon" href="/portal.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/portal.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="/portal.png">
+
+  <link rel="manifest" href="/manifest.json">
+</head>
+<body style="margin:0; height:100vh; background:#000; color:#fff; font-family:-apple-system,sans-serif; display:flex; align-items:center; justify-content:center; text-align:center;">
+  <div>
+    <h1 style="font-size:2.8rem; margin-bottom:20px;">Portal</h1>
+    <p>Loading Technical Dictionary… (opens automatically in 3 seconds)</p>
+    <p><a href="dictionary.pdf" style="color:#7c5eff; font-size:1.2rem;">Tap here if it doesn't open</a></p>
+  </div>
+</body>
+</html>
